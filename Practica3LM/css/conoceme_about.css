@@ -1,0 +1,43 @@
+.conoceme {
+    color: #fff;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.historia-1 {
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 3% 20%;
+}
+
+.historia-2 {
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 20%;
+}
+
+.historia-3 {
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 20%;
+}
+
+.historia-3 p {
+    padding: 2%;
+    margin-left: -20px;
+}
+
+.historia-4 {
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 1% 20%;
+}

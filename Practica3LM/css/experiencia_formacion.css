@@ -1,0 +1,108 @@
+
+/*DIV GENERAL DONDE ESTÁN LAS 3 SHADOW-BOX*/
+.experiencia-global {
+	width: 100%;
+	height: 10em;
+	display: flex;
+	position: relative;
+	margin-top: 5em;
+
+}
+
+/* Shadow box 1-3 | ESTILOS: */
+.exp-1 {
+	font-family: 'Indie Flower', cursive;
+	margin-left: 3%;
+	width: 30%;
+	height: 100%;
+	justify-content: space-between;
+	background-color: rgb(2, 2, 51);
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.exp-2 {
+	font-family: 'Indie Flower', cursive;
+	margin-left: 2%;
+	width: 30%;
+	height: 100%;
+	justify-content: space-between;
+	background-color: rgb(2, 2, 51);
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.exp-3 {
+	font-family: 'Indie Flower', cursive;
+	margin-left: 2%;
+	width: 30%;
+	height: 100%;
+	justify-content: space-between;
+	background-color: rgb(2, 2, 51);
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* Estilos de los párrafos que hay en las box */
+.experiencia-global p {
+	font-family: 'Indie Flower', cursive;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 45px;
+	color: #fff;
+}
+
+
+/* Los párrafos escondidos: */
+.hidden-info-1 {
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+	z-index: -1;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.hidden-info-2 {
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+	z-index: -1;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.hidden-info-3 {
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+	z-index: -1;
+	display: flex;
+	justify-content: center;
+}
+
+div a {
+	margin-top: 2em;
+}
+
+/* Mostrar párrafos escondidos con hover */
+.exp-1:hover {
+	position: relative;
+	color: #fff;
+	z-index: 1;
+	transition: 0.40s;
+	height: 25em;
+}
+
+.exp-2:hover {
+	position: relative;
+	color: #fff;
+	z-index: 1;
+	transition: 0.40s;
+	height: 25em;
+}
+
+.exp-3:hover {
+	position: relative;
+	color: #fff;
+	z-index: 1;
+	transition: 0.40s;
+	height: 25em;
+}

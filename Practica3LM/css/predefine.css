@@ -1,0 +1,15 @@
+/* Predefinir estilos del navegador por defecto */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Evitar Scroll horizontal */
+::-webkit-scrollbar {
+    display: none;
+	overflow-y: hidden;
+}
+
+

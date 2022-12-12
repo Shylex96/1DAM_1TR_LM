@@ -1,0 +1,14 @@
+.linkedin p {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 3em;
+    margin-bottom: 1%;
+}
+
+.linkedin a {
+    color: #dddddd;
+    font-size: 22px;
+    margin-left: 3em;
+    margin-left: 5em;
+    text-shadow: 2px 2px rgb(19, 163, 230);
+}

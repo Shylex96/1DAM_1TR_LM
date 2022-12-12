@@ -1,0 +1,18 @@
+/* Personal */
+
+.personal{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	height: 500px;
+}
+
+#h1-personal{
+	font-size: 50px;
+}
+
+.info-personal p{
+	font-size: 20px;
+	color: #fff;
+}

@@ -1,0 +1,20 @@
+.puntos-title {
+    color: #fff;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.puntos-a-favor {
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.puntos-a-favor .indentacion {
+    margin-left: 4em;
+}
