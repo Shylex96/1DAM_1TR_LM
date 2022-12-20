@@ -1,0 +1,457 @@
+/* EJERCICIO 16 */
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* LETRA A*/
+
+.letra-a 
+{
+    margin-top: 5em;
+    display: inline-block;
+    margin-left: 10em;
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+    width: 365px;
+    height: 165px;
+    border-radius: 71% 0% 41% 0% / 0% 0% 77% 10%; 
+}
+
+.letra-a p
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* LETRA B*/
+
+.letra-b 
+{
+    margin-left: 15em;
+    display: inline-block;
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+    width: 365px;
+    height: 165px;
+    border-radius: 71% 0% 37% 0% / 0% 0% 39% 10%; 
+}
+
+.letra-b p
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* LETRA C*/
+
+.letra-c
+{
+    margin-left: 15em;
+    display: inline-block;
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+    width: 365px;
+    height: 165px;
+    border-radius: 71% 0% 21% 0% / 0% 0% 72% 10%; 
+}
+
+.letra-c p
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* LETRA D*/
+
+.letra-d
+{
+    margin-top: 8em;
+    margin-left: 10em;
+    display: inline-block;
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+    width: 365px;
+    height: 165px;
+    border-radius: 11% 32% 14% 32% / 18% 75% 19% 56%; 
+}
+
+.letra-d p
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* LETRA E*/
+
+.letra-e
+{
+    display: inline-block;
+    margin-left: 15em;
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+    width: 365px;
+    height: 165px;
+    border-radius: 12% 2% 12% 4% / 4% 22% 11% 21%; 
+}
+
+.letra-e p
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* LETRA F*/
+
+.letra-f
+{
+    display: inline-block;
+    margin-left: 20em;
+    background-color: rgb(85, 83, 83);
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; 
+}
+
+.letra-f p
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 75px;
+}
+
+/* EJERCICIO 17*/
+
+/* CUADRADO A */
+
+.cuadrado-a {
+    display: inline-block;
+    margin-top: 5em;
+    margin-left: 10em;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0px;
+    background: #e7e2e2;
+    box-shadow: -5px -5px 0px #a7a2a2,
+                -5px -5px 0px #e6e3e3;
+}
+
+.cuadrado-a p
+{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: gray;
+}
+
+/* CUADRADO B */
+
+.cuadrado-b {
+    display: inline-block;
+    margin-top: 5em;
+    margin-left: 30em;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow: -8px -8px 8px #706e6e;
+}
+
+.cuadrado-b p {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: gray;
+}
+
+/* CUADRADO C */
+
+.cuadrado-c {
+    display: inline-block;
+    margin-top: 5em;
+    margin-left: 30em;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow: -10px -10px 0px #696868, /* horizontal superior */
+                -10px 0px 0px #696868, /* horizontal izquierda */
+                0px -10px 0px #696868; /*vertical derecha */
+
+}
+
+.cuadrado-c p {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: gray;
+}
+
+/* CUADRADO D */
+
+.cuadrado-d {
+    display: inline-block;
+    margin-top: 10em;
+    margin-left: 10em;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow: -10px -10px 10px #696868, 
+                -10px 0px 10px #696868, 
+                -5px -10px 10px #696868; 
+
+}
+
+.cuadrado-d p {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: gray;
+}
+
+/* CUADRADO E */
+
+.cuadrado-e {
+    display: inline-block;
+    margin-top: 10em;
+    margin-left: 30em;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow: 3px 5px 5px #d8d6d6,
+                -3px -5px 5px #d8d6d6,
+                -3px 5px 5px #d8d6d6,
+                3px -5px 5px #d8d6d6;
+
+}
+
+.cuadrado-e p {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: gray;
+}
+
+/* CUADRADO F */
+
+.cuadrado-f {
+    display: inline-block;
+    margin-top: 10em;
+    margin-left: 30em;
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow: 8px 8px 8px #8d8c8c,
+                -8px -8px 8px #8d8c8c,
+                -8px 8px 8px #8d8c8c,
+                8px -8px 8px #8d8c8c;
+
+}
+
+.cuadrado-f p {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 35px;
+    color: gray;
+}
+
+/* EJERCICIO 18 */
+
+.contenedor-imagenes div {
+    position: absolute;
+    display: flex;
+    color: #000;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 73%;
+}
+
+.background-base 
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.superposicion-lazo
+{
+    display: flex; 
+    height: 60vh;
+    width: 30vh;
+    margin-left: 100em;
+    margin-top: -35em;
+}
+
+.hojas-superiores {
+    display: flex; 
+    height: 40vh;
+    width: 60vh;
+    margin-top: -58em;
+}
+
+/* Espaciado */
+
+.espaciado {
+    margin-top: 50em;
+}
+
+/* EJERCICIO 19 */
+
+.rojito {
+    color: #fff;
+    text-shadow: 1px 1px 15px rgb(223, 9, 9),
+                1px 1px 1px #000;
+}
+
+.negrito {
+    color: #000;
+    text-shadow: -3px -4px 5px red,
+                4px -4px 3px rgb(18, 212, 18),
+                0px 6px 5px rgb(28, 28, 209);
+}
+
+.blanquito-bg{
+    background-color: rgb(207, 204, 204);
+    width: fit-content;
+    margin-left: 40.5em;
+}
+
+.blanquito {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.grisecito-bg{
+    background-color: rgb(150, 146, 146);
+    width: fit-content;
+    margin-left: 40.5em;
+}
+
+.grisecito {
+    color: rgb(173, 169, 169);
+    text-shadow: 1px 1px 1px rgb(173, 169, 169),
+                -1px -1px 1px #fff;
+}
+
+.espaciado-enlace{
+    margin-top: 5%;
+    margin-left: 46.5%;
+}
+
+.enlace-20{
+    font-size: 30px;
+}
+
+/*  EJERCICIO 20 */
+
+.espacio-enla{
+    margin-top: 1%;
+    margin-left: 48%;
+}
+
+.enlace20{
+    font-size: 25px;
+}
+
+
+.modulo{
+    width: 50%;
+    height: 20em;
+    background-color: rgb(177, 169, 169);
+    margin-left: 25%;
+    display: flex;
+}
+
+.site-name{
+    display: flex;
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.links{
+    width: 20%;
+    height: 17%;
+    background-color: rgb(20, 230, 20);
+    margin-left: -8.1em;
+    margin-top: 5em;
+}
+
+.links a {
+    display: block;
+}
+
+.main{
+    background-color: rgb(245, 245, 35);
+    height: 75%;
+    width: 50%;
+    margin-top: 8.4%;
+    margin-left: 3%;
+    display: block;
+}
+
+.main h3 {
+    margin-top: 1%;
+    font-size: 22px;
+}
+
+.lorem-main {
+    display: block;
+}
+
+.imagen-hojas {
+    display: block;
+    width: 150px;
+    height: 390px;
+    margin-top: -20em;
+    margin-left: 20em;
+}
+
+.related{
+    width: 22%;
+    height: 45%;
+    background-color: rgb(121, 117, 117);
+    margin-top: 5em;
+    margin-left: 4em;
+}
+
+.title-related {
+    display: flex;
+    font-size: 20px;
+    margin-top: 1px;
+}
+.f{
+    color:  rgb(177, 169, 169);
+    font-size: 1px;
+}

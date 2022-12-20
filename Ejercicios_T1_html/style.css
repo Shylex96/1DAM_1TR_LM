@@ -1,0 +1,137 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+
+body {
+    
+    background: url(img/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    align-items: center;
+    /*background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);*/
+}
+
+#textolorem{
+    color: rgb(6, 80, 80);
+    font-size: 3em;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.menu{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+
+#prueb{
+    color: rgb(185, 14, 185);
+    text-align: center;
+    font-size: 1.8em;
+    text-shadow: 3px;
+    box-shadow: 2px;
+}
+
+.linked{
+    color: #ffffff;
+    /*padding-left: 25em;*/
+    /*1/16 px to em*/
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.8em;
+    top: 4em;
+    left: 7.5em;
+}
+
+.lista1{
+    position: relative;
+    justify-content: flex;
+    font-size: 1.6em;
+    align-items: center;
+    padding: 20px;
+    border: 5px;
+    height: 1em;
+    width: 1em;
+    color: #190d85;
+    top: 25em;
+    left: 2.5em;
+}
+
+.lista2{
+    justify-content: flex;
+    justify-items: auto;
+    position: relative;
+    justify-content: flex;
+    font-size: 1.6em;
+    align-items: center;
+    padding: 20px;
+    border: 5px;
+    height: 1em;
+    width: 10em;
+    color: #fb2aba;
+    top: 23em;
+    left: 15em;
+}
+
+#dd1, #dd2 {
+    color:rgb(120, 206, 7);
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: rgb(78, 18, 218);
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.article-right{
+    position: relative;
+    padding: 20px;
+    color: #fb2aba;
+    top: 20em;
+}
+
+.tablita-cute{
+    font-size: 35px;
+    color: rgb(17, 153, 177);
+    position: relative;
+    top: 20em;
+    left: 1em;
+    padding: 10px;
+}
+
+.name-table{
+    border-color: rgb(11, 11, 204);
+}
+
+.age-table{
+    border-color: rgb(10, 167, 31);
+}
+
+.location-table{
+    border-color: rgb(190, 12, 42);
+}
+
+
